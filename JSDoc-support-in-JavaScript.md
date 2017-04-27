@@ -1,5 +1,8 @@
 The below code outlines which constructs are currently supported or not supported
-when using JsDoc annotations to provide type information in JavaScript files.
+when using JsDoc annotations to provide type information in JavaScript files. Keep 
+in mind that in order to compile Javascript files, `allowJs` must be passed into
+the [compiler](https://www.typescriptlang.org/docs/handbook/compiler-options.html)
+through either a command line flag or within [tsconfig.json](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
 
 Note any tags which are not  explicitly listed below (such as `@constructor`)
 are not yet supported.
